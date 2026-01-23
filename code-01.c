@@ -2,6 +2,7 @@
 
 int main()
 {
-    printf("Hello Git\n");
+    char text[] = "Hello Git\n";
+    printf("%s", text);
     return 0;
 }
